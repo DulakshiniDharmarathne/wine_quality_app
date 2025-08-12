@@ -1,12 +1,12 @@
 ## 🍷 Wine Quality Prediction Web App
 A machine learning web application that predicts wine quality (Good / Low) based on chemical composition attributes, built using scikit-learn and deployed with Streamlit Cloud.
 
-🚀 Live Demo
+Live Demo
 🔗 Streamlit App: https://winequalityapp-7hkmdhuubuvqwaawokwep8.streamlit.app/
 🔗 GitHub Repo: https://github.com/DulakshiniDharmarathne/wine_quality_app
 
 ## 👤 Author
-Name : I D D R dharmarathne 
+Name : I D D R dharmarathne ||
 Index No: ITBIN-2211-0174
 
 ## 📊 Dataset
