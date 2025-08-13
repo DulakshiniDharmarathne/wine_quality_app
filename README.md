@@ -1,27 +1,109 @@
 ## 🍷 Wine Quality Prediction Web App
-A machine learning web application that predicts wine quality (Good / Low) based on chemical composition attributes, built using scikit-learn and deployed with Streamlit Cloud.
+A machine learning web application that predicts Wine Quality (Good / Low) based on chemical composition attributes, built with scikit-learn and deployed on Streamlit Cloud.
 
-Live Demo
+## 🚀 Live Demo
 🔗 Streamlit App: https://winequalityapp-7hkmdhuubuvqwaawokwep8.streamlit.app/
+
 🔗 GitHub Repo: https://github.com/DulakshiniDharmarathne/wine_quality_app
 
 ## 👤 Author
-Name : I D D R dharmarathne ||
+Name: I. D. D. R. Dharmarathne
 Index No: ITBIN-2211-0174
 
 ## 📊 Dataset
-The Wine Quality Dataset (Red Wine) from Kaggle contains 1,599 samples of red wine, each described by 11 numerical physicochemical properties. These features include fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, and alcohol percentage. The target variable represents the wine’s quality score on a scale from 0 to 10, which has been transformed into a binary classification: wines with a quality score of 7 or higher are labeled as “Good Quality” (1), while those with a score below 7 are labeled as “Low Quality” (0). This dataset is commonly used for classification tasks and predictive modeling in machine learning, particularly in exploring how chemical properties influence perceived wine quality.
+The dataset used is the Wine Quality Dataset (Red Wine) from Kaggle.
 
+Total Samples: 1,599 red wine samples
+
+Features (11 numerical physicochemical properties):
+
+Fixed acidity
+
+Volatile acidity
+
+Citric acid
+
+Residual sugar
+
+Chlorides
+
+Free sulfur dioxide
+
+Total sulfur dioxide
+
+Density
+
+pH
+
+Sulphates
+
+Alcohol percentage
+
+Target Variable:
+
+Original: Wine quality score (0–10)
+
+Transformed: Binary Classification
+
+Good Quality (1): Score ≥ 7
+
+Low Quality (0): Score < 7
+
+This dataset is commonly used for classification tasks to explore how chemical properties influence wine quality.
 
 ## 🧠 Machine Learning Pipeline
-Models Used:
-Logistic Regression – Baseline linear model
-Random Forest Classifier ✅ (selected model)
+Models Tested:
+
+Logistic Regression (Baseline)
+
+## ✅ Random Forest Classifier (Selected Model)
+
 Evaluation Metrics:
-Accuracy score
-Classification report (Precision, Recall, F1-score)
-Confusion matrix
+
+Accuracy Score
+
+Classification Report (Precision, Recall, F1-score)
+
+Confusion Matrix
 
 ## 📂 Project Structure
+bash
+Copy
+Edit
+wine_quality_app/
+│
+├── app.py                 # Streamlit application script
+├── requirements.txt       # Python dependencies
+├── model.pkl              # Trained Random Forest model
+│
+├── data/
+│   └── dataset.csv        # Wine Quality Dataset
+│
+├── notebooks/
+│   └── model_training.ipynb # Jupyter Notebook for model training
+│
+└── README.md              # Project documentation
 
-├── app.py ├── requirements.txt ├── model.pkl ├── data/ │ └── dataset.csv ├── notebooks/ │ └── model_training.ipynb └── README.md
+## ⚙️ Installation & Usage
+Clone the Repository
+
+bash
+Copy
+Edit
+git clone https://github.com/DulakshiniDharmarathne/wine_quality_app.git
+cd wine_quality_app
+Install Dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the Streamlit App
+
+bash
+Copy
+Edit
+streamlit run app.py
+Access in Browser
+Open http://localhost:8501
+
